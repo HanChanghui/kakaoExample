@@ -1,4 +1,4 @@
-package com.example.kakaoxmlexample
+package com.example.xmlExample
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

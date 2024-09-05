@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.kakaoxmlexample"
+    namespace = "com.example.xmlexample"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.kakaoxmlexample"
+        applicationId = "com.example.xmlexample"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -47,6 +47,9 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation("androidx.fragment:fragment-ktx:1.4.1")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.8.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
+    implementation("com.google.code.gson:gson:2.10.1")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

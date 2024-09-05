@@ -1,4 +1,4 @@
-package com.example.kakaoxmlexample
+package com.example.xmlExample
 
 import org.junit.Test
 

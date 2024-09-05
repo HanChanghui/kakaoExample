@@ -1,4 +1,4 @@
-package com.example.kakaoxmlexample
+package com.example.xmlExample
 
 import androidx.lifecycle.ViewModel
 
